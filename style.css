@@ -3,21 +3,29 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
-h1
+
+.red
+{
+    color: red;
+}
+
+/* //////////1//////////// */
+
+.div1 h1
 {
     color: #423687;
     text-align: center;
     margin-top: 1%;
     margin-bottom: 5%;
 }
-h2
+.div1 h2
 {
     color: #92aeca;
     font-size:large;
     margin: 3% 3%;
 }
 
-h4
+.div1 h4
 {
     font-weight: 100;
     margin-left: 3%;
@@ -26,7 +34,73 @@ h4
 .div1
 {
     margin: 10%;
-    background-color: #f5f5f5;
+    background-color: #dadada;
     padding-top: 5%;
     padding-bottom: 5%;
+}
+/* ////////////2//////////// */
+
+.div2
+{
+    margin: 0% 10%;
+    background-color: white;
+    padding-bottom: 5%;
+}
+
+.div2 ul
+{
+    list-style: none;
+    padding-left: 2%;
+}
+
+.div2 ul li
+{
+    /* display:inline-block; */
+    display:inline-block;
+    margin:2% auto;
+    border:none;
+    text-align: center;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    background-color:lightgray;
+    font-size: xx-large;
+    padding: 0px 1%;
+}
+
+
+
+.div2 h1
+{
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    text-align: left;
+    font-weight: 100;
+}
+
+/* ///////3////////// */
+
+.div3
+{
+    margin: 10%;
+    background-color: #dadada;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.div3 h1
+{
+    text-align: center;
+}
+
+.div3 hr
+{
+    margin: 6% 0%;
+}
+
+.div3 h2
+{
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 3%;
 }
