@@ -84,8 +84,7 @@
 {
     margin: 10%;
     background-color: #dadada;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 5%;
 }
 
 .div3 h1
@@ -103,4 +102,28 @@
     text-align: center;
     font-size: x-large;
     padding-bottom: 3%;
+}
+
+.bld
+{
+    font-weight:bolder;
+}
+
+.dottedUnderline { border-bottom: 1px dotted; }
+.div3 h4 p{
+    font-weight: lighter;
+}
+.div3 div{
+
+    padding: 2%;
+    background-color: #c6c6c6;
+}
+.div3 .red
+{
+    color: red;
+}
+.div3 .bck_gr
+{
+    background-color: gray;
+    color: aqua;
 }
